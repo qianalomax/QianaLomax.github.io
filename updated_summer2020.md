@@ -3,10 +3,10 @@ locale                   : "en-US"
 title                    : "Qiana Lomax"
 title_separator          : "-"
 name                     : &name "Qiana Lomax"
-description              : &description "Reproductive Research: COVID-19"
-url                      : https://QianaLomax.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Reroductive Research: COVID-19 project"
+url                      : https://qianalomax.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "QianaLomax.github.io"
+repository               : "academicpages/qianalomax.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -49,10 +49,10 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-Instagram:
-  username               :qnaturo_nd7 
+twitter:
+  username               : &twitter
 facebook:
-  username               :qianalomax
+  username               :
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -75,19 +75,19 @@ analytics:
 author:
   name             : "Qiana Lomax"
   avatar           : "profile.png"
-  bio              : "Ferris State graduate of Biology"
+  bio              : "Ferris State University 2020 graduate in Biology"
   location         : "Grand Rapids, MI"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  email            :  "lomaxgreyson@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         :  "Qiana Lomax"
   foursquare       :
   github           : "qianalomax"
   google_plus      :
@@ -95,14 +95,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :"Qiana Lomax"
+  linkedin         :
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
@@ -303,4 +303,4 @@ compress_html:
   ignore:
     envs: development
 
-theme: Q modernist
+theme: jekyll-theme-modernist
